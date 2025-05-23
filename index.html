@@ -6,11 +6,56 @@
   <title>我的作品集</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .about-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 20px;
-      padding: 20px;
+      padding: 20px 0;
     }
 
     .project-card {
@@ -27,6 +72,17 @@
       object-fit: cover;
       border-radius: 8px;
       margin-bottom: 10px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -62,25 +118,24 @@
         <img src="attached_assets/作品集2.jpg" alt="作品集2 圖片">
         <h3>CRP-Staffing</h3>
         <p>閱讀人力資源相關文章，深入分析並研究相關議題</p>
-       </div>
-       <div class="project-card">
+      </div>
+      <div class="project-card">
         <img src="attached_assets/作品集3.jpg" alt="作品集3 圖片">
         <h3>CRP-Staffing</h3>
         <p>閱讀人力資源相關文章，深入分析並研究相關議題</p>
       </div>
-       <div class="project-card">
+      <div class="project-card">
         <img src="attached_assets/作品集4.jpg" alt="作品集4 圖片">
         <h3>CRP-Staffing</h3>
         <p>閱讀人力資源相關文章，深入分析並研究相關議題</p>
       </div>
-       <div class="project-card">
-        <img src="attached_assets/作品集(5.png" alt="作品集(5 圖片">
+      <div class="project-card">
+        <img src="attached_assets/作品集(5.png" alt="作品集5 圖片">
         <h3>CRP-Staffing</h3>
         <p>閱讀人力資源相關文章，深入分析並研究相關議題</p>
       </div>
-       </div>
-       <div class="project-card">
-        <img src="attached_assets/image.png" alt="image 圖片">
+      <div class="project-card">
+        <img src="attached_assets/image.png" alt="作品集6 圖片">
         <h3>CRP-Staffing</h3>
         <p>閱讀人力資源相關文章，深入分析並研究相關議題</p>
       </div>
